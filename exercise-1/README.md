@@ -24,7 +24,7 @@ At this point, GitHub should prevent **Person 2** from pushing because they are 
 ## Merging
 In order to push their changes up to GitHub, **Person 2** will have to `pull` in the most recent changes and `merge` them with their own commit.
 
-- **Person 2** should pull and rebase changes from GitHub (i.e., `git pull origin master --no-edit`). This should work smoothly because **Person 1** and **Person 2** did not edit the same line of the same file
+- **Person 2** should `pull` and `merge` changes from GitHub (i.e., `git pull origin master --no-edit`). This should work smoothly because **Person 1** and **Person 2** did not edit the same line of the same file
 - **Person 2** should now be able to push their (integrated) changes up to GitHub.
 
 This exercise is a simple example of using merging _without_ conflict. To practice encountering conflict, see [exercise-2](../exercise-2).
